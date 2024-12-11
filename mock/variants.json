@@ -35,26 +35,26 @@
     "options": [
       {
         "id": "t1",
-        "label": "Trân châu",
+        "label": "Trân Châu Đen/ Trắng",
         "priceChange": {
           "type": "fixed",
-          "amount": 5000
+          "amount": 6000
         }
       },
       {
         "id": "t2",
-        "label": "Bánh flan",
+        "label": "Trân châu Olong",
         "priceChange": {
           "type": "fixed",
-          "amount": 10000
+          "amount": 6000
         }
       },
       {
         "id": "t3",
-        "label": "Trang trí",
+        "label": "Thạch Trái Cây",
         "priceChange": {
           "type": "percent",
-          "percent": 0.15
+          "amount": 6000
         }
       },
       {
@@ -63,6 +63,54 @@
         "priceChange": {
           "type": "fixed",
           "amount": -5000
+        }
+      },
+      {
+        "id": "t5",
+        "label": "Thạch Sương Sáo",
+        "priceChange": {
+          "type": "fixed",
+          "amount": -5000
+        }
+      },
+      {
+        "id": "t6",
+        "label": "Thạch Dừa",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 6000
+        }
+      },
+      {
+        "id": "t7",
+        "label": "Thạch Củ Năng Nổ",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 10000
+        }
+      },
+      {
+        "id": "t8",
+        "label": "Vải Tươi",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 10000
+        }
+      },
+      {
+        "id": "t9",
+        "label": "Đào Tươi",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 10000
+        }
+      },
+      {
+        "id": "t10",
+        "label": "Macchiato",
+        "priceChange": {
+          "type": "fixed",
+          "amount": 10000
         }
       }
     ]
