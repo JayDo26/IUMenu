@@ -1,113 +1,617 @@
 [
   {
     "id": 1,
-    "name": "Caramel Latte",
-    "price": 35000,
+    "name": "Cà Phê Đá/Nóng",
+    "price": 20000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-1.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
     "categoryId": ["coffee", "drinks"],
-    "variantId": ["size", "topping"]
+    "variantId": ["size"]
   },
   {
     "id": 2,
-    "name": "Mocha Frappuccino",
-    "price": 45000,
+    "name": "Cà Phê Sữa Đá/Nóng",
+    "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-2.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee"],
-    "variantId": ["size", "topping"]
+    "categoryId": ["coffee", "drinks"],
+    "variantId": ["size"]
   },
   {
     "id": 3,
-    "name": "Grilled Pork Banh Mi",
-    "price": 30000,
+    "name": "Bạc Xỉu Đá/Nóng",
+    "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-3.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["food", "bread"],
+    "categoryId": ["coffee", "drinks"],
     "variantId": ["size"]
   },
   {
     "id": 4,
-    "name": "Pizza",
-    "price": 28000,
+    "name": "Cà phê muối",
+    "price": 30000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-4.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["food"],
+    "categoryId": ["coffee","drinks"],
     "variantId": ["size"]
   },
   {
     "id": 5,
-    "name": "Vanilla Latte",
-    "price": 35000,
+    "name": "Sữa Tươi Cà Phê",
+    "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-5.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee", "matcha"],
-    "variantId": ["size", "topping"]
+    "categoryId": ["Coffee", "drinks"],
+    "variantId": ["size"]
   },
   {
     "id": 6,
-    "name": "Caramel Macchiato",
-    "price": 38000,
+    "name": "Cacao Sữa Đá/Nóng",
+    "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-6.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee", "milktea"],
-    "variantId": ["size", "topping"]
+    "categoryId": ["Cacao", "drinks"],
+    "variantId": ["size"]
   },
   {
     "id": 7,
-    "name": "Espresso",
-    "price": 32000,
+    "name": "Sương Sáo Sữa",
+    "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-7.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee"],
+    "categoryId": ["Cacao"],
     "variantId": ["size", "topping"]
   },
   {
     "id": 8,
-    "name": "Green Tea Latte",
+    "name": "Lipton Sữa",
     "price": 25000,
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["matcha"],
+    "categoryId": ["Lipton"],
     "variantId": ["size", "topping"]
   },
   {
     "id": 9,
-    "name": "Bộ 3 Blue Corner Coffee siêu HOT",
-    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-rect-1.webp",
+    "name": "Lipton Sữa Đào",
     "price": 25000,
-    "sale": {
-      "type": "percent",
-      "percent": 0.2
-    },
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee", "milktea", "drinks"],
+    "categoryId": ["Lipton"],
     "variantId": ["size", "topping"]
   },
   {
     "id": 10,
-    "name": "Combo Hi Tea Aroma",
-    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-rect-2.webp",
-    "price": 57000,
-    "sale": {
-      "type": "fixed",
-      "amount": 7000
-    },
+    "name": "Lipton Chanh Đá/Nóng",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["coffee", "drinks"],
+    "categoryId": ["Lipton"],
     "variantId": ["size", "topping"]
   },
   {
     "id": 11,
-    "name": "Milk Tea Combo",
-    "price": 55000,
-    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-rect-3.webp",
+    "name": "Lipton Cam/Cam Sữa",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
-    "categoryId": ["milktea"],
-    "variantId": ["size", "topping"],
-    "sale": {
-      "type": "percent",
-      "percent": 0.5
-    }
+    "categoryId": ["Lipton"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 12,
+    "name": "Hồng Trà Trân Châu ",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 13,
+    "name": "Trà Chanh/ Đào/ Táo",
+    "price": 22000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 14,
+    "name": "Trà Vải/ Bạc Hà/ Mật Ong",
+    "price": 22000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 15,
+    "name": "Trà Đào Tắc",
+    "price": 22000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 16,
+    "name": "Trà Chanh Mật Ong",
+    "price": 22000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 17,
+    "name": "Trà Việt Quất",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 18,
+    "name": "Trà Ổi Hồng",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 19,
+    "name": "Trà Dâu Đào",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 20,
+    "name": "Trà Vải Dưa Hấu",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 21,
+    "name": "Trà Xoài Chanh Dây",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 22,
+    "name": "Trà Trái Cây Nhiệt Đới",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 23,
+    "name": "Thơm/ Ổi/ Dưa Hấu",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Juice"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 24,
+    "name": "Cam/ Cam Sữa",
+    "price": 28000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Juice"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 25,
+    "name": "Cam Mật Ong",
+    "price": 28000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Juice"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 26,
+    "name": "Cam Cà Rốt/ Thơm Cà Rốt",
+    "price": 28000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Juice"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 27,
+    "name": "Vải/ Đào/ Táo/ Chanh/ Bạc Hà",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Soda"],
+    "variantId": ["size", "topping"]
+  }, {
+    "id": 28,
+    "name": "Trà Sữa Trân Châu",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 29,
+    "name": "Trà Sữa Cà Phê",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 30,
+    "name": "Trà Sữa Đào",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  }, 
+  {
+    "id": 31,
+    "name": "Trà Sữa Vải",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 32,
+    "name": "Trà Sữa Táo",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 33,
+    "name": "Trà Sữa Xoài",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 34,
+    "name": "Trà Sữa Mật Ong",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 35,
+    "name": "Trà Sữa Bạc Hà",
+    "price": 27000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Milk Tea"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 36,
+    "name": "Mocha Cacao",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Signature"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 37,
+    "name": "Trà Sữa Macchiato",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Signature"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 38,
+    "name": "Trà Đen Macchiato",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Signature"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 39,
+    "name": "Yogurt Việt Quất",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Signature"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 40,
+    "name": "Matcha Latte",
+    "price": 30000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Signature"],
+    "variantId": ["size", "topping"]
+  },
+  {
+    "id": 41,
+    "name": "Xúc Xích Chiên",
+    "price": 15000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 42,
+    "name": "Cá Viên Chiên",
+    "price": 15000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 43,
+    "name": "Bánh Giò",
+    "price": 15000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 44,
+    "name": "Xôi",
+    "price": 16000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 45,
+    "name": "Bánh Bao Trứng Cút",
+    "price": 20000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 46,
+    "name": "Bánh Bao Trứng Muối",
+    "price": 15000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 47,
+    "name": "Mì Trộn",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Food"],
+    "variantId": ["size"]
+  },
+  {
+    "id": 48,
+    "name": "Đá Xay Matcha",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 49,
+    "name": "Đá Xay Chanh Tuyết",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 50,
+    "name": "Đá Xay Cà Phê Sữa",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 51,
+    "name": "Đá Xay Cà Phê Hạt Dẻ",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 52,
+    "name": "Đá Xay Cà Phê Sữa Dừa",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 53,
+    "name": "Đá Xay Cacao",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 54,
+    "name": "Đá Xay Cacao Sữa Dừa",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 55,
+    "name": "Đá Xay Cookie",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 56,
+    "name": "Đá Xay Cookie Chuối",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 57,
+    "name": "Đá Xay Cookie Socola",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 58,
+    "name": "Đá Xay Mint Cookie",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Ice Blended Drink"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 59,
+    "name": "Sinh Tố Bơ",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Smoothie"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 60,
+    "name": "Sinh Tố Dâu",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Smoothie"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 61,
+    "name": "Sinh Tố Dừa",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Smoothie"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 62,
+    "name": "Sinh Tố Chuối",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Smoothie"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 63,
+    "name": "Sinh Tố Mãng Cầu",
+    "price": 35000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Smoothie"],
+    "variantId": ["size", "Topping"]
+  },
+  {
+    "id": 64,
+    "name": "Xúc Xích Chà Bông",
+    "price": 20000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
+  },
+  {
+    "id": 65,
+    "name": "Bánh Cua",
+    "price": 18000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
+  },
+  {
+    "id": 66,
+    "name": "Paparoti",
+    "price": 20000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
+  },
+  {
+    "id": 67,
+    "name": "Tart Trứng",
+    "price": 15000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
+  },
+  {
+    "id": 68,
+    "name": "Bánh Mì Que",
+    "price": 20000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
+  },
+  {
+    "id": 69,
+    "name": "Hotdog",
+    "price": 25000,
+    "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-8.webp",
+    "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
+    "categoryId": ["Bread"]
   }
+  
 ]
