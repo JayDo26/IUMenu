@@ -19,10 +19,7 @@ const tabs: Record<string, MenuItem> = {
     icon: <CartIcon />,
     activeIcon: <CartIcon active />,
   },
-  "/profile": {
-    label: "Cá nhân",
-    icon: <Icon icon="zi-user" />,
-  },
+
 };
 
 export type TabKeys = keyof typeof tabs;

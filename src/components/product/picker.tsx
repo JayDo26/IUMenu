@@ -7,7 +7,7 @@ import { cartState } from "state";
 import { SelectedOptions } from "types/cart";
 import { Product } from "types/product";
 import { isIdentical } from "utils/product";
-import { Box, Button, Text } from "zmp-ui";
+import { Box, Button, Text, useNavigate } from "zmp-ui";
 import { MultipleOptionPicker } from "./multiple-option-picker";
 import { QuantityPicker } from "./quantity-picker";
 import { SingleOptionPicker } from "./single-option-picker";
@@ -40,11 +40,13 @@ export const ProductPicker: FC<ProductPickerProps> = ({
   selected,
 }) => {
   const [visible, setVisible] = useState(false);
+  const navigate = useNavigate();
   const [options, setOptions] = useState<SelectedOptions>(
     selected ? selected.options : getDefaultOptions(product),
   );
   const [quantity, setQuantity] = useState(1);
   const setCart = useSetRecoilState(cartState);
+
 
   useEffect(() => {
     if (selected) {
@@ -106,7 +108,11 @@ export const ProductPicker: FC<ProductPickerProps> = ({
       });
     }
     setVisible(false);
+    navigate("/cart"); 
   };
+
+
+
   return (
     <>
       {children({

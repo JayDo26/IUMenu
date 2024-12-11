@@ -31,10 +31,10 @@
     "id": "topping",
     "label": "Topping",
     "type": "multiple",
-    "default": ["t1", "t4"],
+    "default": "t1",
     "options": [
       {
-        "id": "t1",
+        "id": "t4",
         "label": "Trân châu",
         "priceChange": {
           "type": "fixed",
@@ -58,11 +58,11 @@
         }
       },
       {
-        "id": "t4",
+        "id": "t1",
         "label": "Không lấy đá",
         "priceChange": {
           "type": "fixed",
-          "amount": -5000
+          "amount": 0
         }
       }
     ]

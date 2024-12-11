@@ -6,7 +6,6 @@ import HomePage from "pages/index";
 import CategoryPage from "pages/category";
 import CartPage from "pages/cart";
 import NotificationPage from "pages/notification";
-import ProfilePage from "pages/profile";
 import SearchPage from "pages/search";
 import CheckoutResultPage from "pages/result";
 import { getSystemInfo } from "zmp-sdk";
@@ -38,7 +37,6 @@ export const Layout: FC = () => {
           <Route path="/category" element={<CategoryPage />}></Route>
           <Route path="/notification" element={<NotificationPage />}></Route>
           <Route path="/cart" element={<CartPage />}></Route>
-          <Route path="/profile" element={<ProfilePage />}></Route>
           <Route path="/result" element={<CheckoutResultPage />}></Route>
         </Routes>
       </Box>

@@ -106,17 +106,10 @@ export const notificationsState = atom<Notification[]>({
   default: [
     {
       id: 1,
-      image: logo,
       title: "Chào bạn mới",
       content:
-        "Cảm ơn đã sử dụng ZaUI Coffee, bạn có thể dùng ứng dụng này để tiết kiệm thời gian xây dựng",
-    },
-    {
-      id: 2,
-      image: logo,
-      title: "Giảm 50% lần đầu mua hàng",
-      content: "Nhập WELCOME để được giảm 50% giá trị đơn hàng đầu tiên order",
-    },
+        "Cảm ơn đã sử dụng IU Menu, Hãy đến Coffee Story để nhận nước khi có thông báo",
+    }
   ],
 });
 
@@ -233,7 +226,7 @@ export const selectedStoreState = selector({
 
 export const selectedDeliveryTimeState = atom({
   key: "selectedDeliveryTime",
-  default: +new Date(),
+  default:null,
 });
 
 export const requestLocationTriesState = atom({

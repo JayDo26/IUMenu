@@ -6,7 +6,8 @@
     "image": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/product-square-1.webp",
     "description": "There is a set of mock banners available <u>here</u> in three colours and in a range of standard banner sizes",
     "categoryId": ["coffee", "drinks"],
-    "variantId": ["size", "topping"]
+    "variantId": ["size", "topping"],
+    "time": 5
   },
   {
     "id": 2,

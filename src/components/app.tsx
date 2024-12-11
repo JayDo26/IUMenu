@@ -1,13 +1,14 @@
-import React from "react";
+import React,{Suspense} from "react";
 import { App, ZMPRouter, SnackbarProvider } from "zmp-ui";
 import { RecoilRoot } from "recoil";
 import { getConfig } from "utils/config";
 import { Layout } from "./layout";
 import { ConfigProvider } from "./config-provider";
+import { CartPreview } from "pages/cart/preview";
 
 const MyApp = () => {
   return (
-    <RecoilRoot>
+<RecoilRoot>
       <ConfigProvider
         cssVariables={{
           "--zmp-primary-color": getConfig((c) => c.template.primaryColor),
@@ -17,12 +18,15 @@ const MyApp = () => {
         <App>
           <SnackbarProvider>
             <ZMPRouter>
-              <Layout />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Layout />
+              </Suspense>
             </ZMPRouter>
           </SnackbarProvider>
         </App>
       </ConfigProvider>
     </RecoilRoot>
+
   );
 };
 export default MyApp;
