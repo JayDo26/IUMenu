@@ -28,8 +28,8 @@ const formatCartForSheet = (cart) => {
       ? options.topping.join(", ")
       : "Không chọn topping";
 
-    return `${productName} (Kích cỡ: ${sizeLabel}, Topping: ${toppingLabels}): x${quantity}`;
-  });
+      return `${productName} (Kích cỡ: ${sizeLabel}, Topping: ${toppingLabels}): x${quantity}`;
+    });
 };
 
 export const CartPreview: FC = () => {

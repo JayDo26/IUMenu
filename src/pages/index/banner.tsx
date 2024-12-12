@@ -16,7 +16,7 @@ export const Banner: FC = () => {
         loop
         cssMode
       >
-        {["/bielnzetahqxs5tyo4uy", "/gxhrt816r4j9vf0ojnp4.jpg"]
+        {["/xcguriyyia1gahfsh5au","/vi37iiusfnljeb3gockc", "/gxhrt816r4j9vf0ojnp4.jpg"]
           .map((i) => getDummyImage(`/IUMenu${i}`))
           .map((banner, i) => (
             <SwiperSlide key={i} className="px-4">

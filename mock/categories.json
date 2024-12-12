@@ -2,37 +2,42 @@
   {
     "id": "coffee",
     "name": "Cà phê",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-coffee.svg"
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/gxzpxyezjwtf4pjdtzgn.png"
   },
   {
     "id": "cacao",
     "name": "Cacao",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-matcha.svg"
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/bdqj3akcjzzwm1c5f5ze.png"
   },
   {
     "id": "lipton",
     "name": "Lipton",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-food.svg"
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/zhjnzt5fla6ydiprjxwt.png"
   },
   {
     "id": "tea",
     "name": "Trà",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-milktea.svg"
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987624/IUMenu/wvasmzipkx4acxgmrkyc.png"
   },
   {
     "id": "soda",
     "name": "Soda",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-drinks.svg"
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/qdimeu6exzactjhdkzli.png"
   },
 
   {
     "id": "juice",
-    "name": "Nước ép",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-juice.svg"
+    "name": "Nước trái cây",
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/h6tciozhtwbvz0tmzat5.png"
+  },
+  {
+    "id": "blended",
+    "name": "Đá xay",
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/agiy5omar5skjvdfb9iw.png"
   },
   {
     "id": "food",
-    "name": "Ăn nhẹ",
-    "icon": "https://stc-zmp.zadn.vn/templates/zaui-coffee/dummy/category-bread.svg"
+    "name": "Đồ ăn",
+    "icon": "https://res.cloudinary.com/dlod5bte9/image/upload/v1733987506/IUMenu/xzkd9m1t5g4phlx8ttfh.png"
   }
 ]
