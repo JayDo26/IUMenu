@@ -165,7 +165,7 @@ export const nearbyStoresState = selector({
           location.longitude,
           store.lat,
           store.long
-        ),
+        )
       }));
 
       // Sort the stores by distance from the current location

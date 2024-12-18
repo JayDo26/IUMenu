@@ -1,4 +1,4 @@
-import { FinalPrice } from "components/display/final-price";
+import { FinalPrice } from "components/display/final-price"
 import React, { FC } from "react";
 import { Product } from "types/product";
 import { Box, Text } from "zmp-ui";
@@ -7,7 +7,7 @@ import { ProductPicker } from "./picker";
 export const ProductItem: FC<{ product: Product }> = ({ product }) => {
   return (
     <ProductPicker product={product}>
-      {({ open }) => (
+      {({ open }) => ( //đóng vai trò là para
         <div className="space-y-2" onClick={open}>
           <Box className="w-full aspect-square relative">
             <img
